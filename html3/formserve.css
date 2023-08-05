@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: ;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.container{
+  margin-top: 1px;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 4em;
+  background-color: black;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff9933;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type=text], input[type=email], input[type=tel], select, textarea, input[type=number] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type=submit] {
+  background-color: #ff9933;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff6600;
+}
+
+input[type=checkbox] {
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+/* Style for the form */
+form {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+/* Style for the card */
+.card {
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  border: 2px solid #ccc;
+  right: 5%;
+}
+
+/* Style for the card image */
+.card-img-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Style for the card body */
+.card-body {
+  padding: 20px;
+}
+
+/* Style for the card title */
+.card-title {
+  margin-bottom: 10px;
+}
+
+/* Style for the card text */
+.card-text {
+  margin-bottom: 20px;
+}
+
+/* Style for the "Learn More" button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+#form1{
+  background-color: #96c0b7;
+}
+#form2{
+  background-color: #D4DFC7;
+}
+#form3{
+  background-color: #878E88;
+}
+#form4{
+  background-color: #FEF6C9;
+}
+#form5{
+  background-color: #f5cac3;
+}
+#form6{
+  background-color: #90e0ef;
+}

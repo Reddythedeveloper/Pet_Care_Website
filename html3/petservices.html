@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+	<!-- Include Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="formserve.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Josefin+Sans:wght@500&family=Nunito:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<style>
+		form {
+			margin: 20px;
+			padding: 10px 10px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			background-color: #f9f9f9;
+			max-width: 500px;
+			left: 10%;
+			top: 20%;
+
+		}
+
+		input[type=text], select {
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			width: 100%;
+		}
+
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+
+		h2 {
+			margin-top: 25px;
+			margin-bottom: 0px;
+			text-align: center;
+			font-size: 3em;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="color: white;"><img src="logo.png" alt="Logo" style="height: 50px; width: 100px;">Pet Services</h1>
+
+	<div class="container">
+	<section id="form1">
+	<div>
+		<h2>Pet Grooming</h2>
+		<div class="row">
+			<!-- Form Column -->
+			<div class="col-md-6">
+				<form action="form1.php" method="post">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+					<label for="phone">Phone</label>
+					<input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+					<label for="pet">Pet Name</label>
+					<input type="text" id="pet" name="pet" placeholder="Your pet name.." required>
+
+					<label for="breed">Pet Breed</label>
+					<input type="text" id="breed" name="breed" placeholder="Your pet breed.." required>
+
+					<label for="date">Date</label>
+					<input type="date" id="date" name="date" required>
+
+					<label for="time">Time</label>
+					<input type="time" id="time" name="time" required>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<!-- Card Column -->
+			<div class="col-md-6">
+				<div class="card">
+					<img class="card-img-top" src="grooming2.jpg" style="width: 540px; height: 300px;" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Grooming</h4>
+						<p class="card-text">Treat your furry friend to the ultimate pampering session with our professional pet grooming services. Our experienced groomers will have your pet looking and feeling their best in no time. From bathing and trimming to nail clipping and ear cleaning, we'll take care of everything your pet needs to stay healthy and happy. Book your appointment today!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<br>
+		<section id="form2">
+		<div>
+		<h2>Pet Boarding</h2>
+		<div class="row">
+			<!-- Form Column -->
+			<div class="col-md-6">
+				<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+		<label for="pet">Pet Name</label>
+		<input type="text" id="pet" name="pet" placeholder="Your pet name.." required>
+
+		<label for="breed">Pet Breed</label>
+		<input type="text" id="breed" name="breed" placeholder="Your pet breed.." required>
+
+		<label for="checkin">Check-in Date</label>
+		<input type="date" id="checkin" name="checkin" required>
+
+		<label for="checkout">Check-out Date</label>
+		<input type="date" id="checkout" name="checkout" required>
+
+		<input type="submit" value="Submit">
+	</form>
+			</div>
+			<!-- Card Column -->
+			<div class="col-md-6">
+				<div class="card">
+					<img class="card-img-top" src="boarding2.jpg"style="width: 540px; height: 300px;" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="Boarding">Boarding</h4>
+						<p class="card-text">Looking for a safe and comfortable place for your furry friend to stay while you're away? Look no further! Our pet boarding services provide a home away from home for your beloved pets. With experienced and caring staff, spacious accommodations, and plenty of playtime and exercise, your pet will have a vacation of their own. Book your pet's stay today and enjoy your own peace of mind knowing they're in good hands.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<br>
+		<section id="form3">
+	<div>
+		<h2>Pet Supplies</h2>
+		<div class="row">
+			<!-- Form Column -->
+			<div class="col-md-6">
+				<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+		<label for="pet">Pet Name</label>
+		<input type="text" id="pet" name="pet" placeholder="Your pet name.." required>
+
+		<label for="supplies">Supplies Needed</label>
+		<textarea id="supplies" name="supplies" placeholder="What supplies do you need?"></textarea>
+
+		<label for="address">Address</label>
+		<textarea id="address" name="address" placeholder="Enter your delivery address.." required></textarea>
+
+		<input type="submit" value="Submit">
+	</form>
+			</div>
+			<!-- Card Column -->
+			<div class="col-md-6">
+				<div class="card">
+					<img class="card-img-top" src="supplies2.jpeg" style="width: 540px; height: 300px;" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Supplies</h5>
+						<p class="card-text">At our pet supplies store, we know that your pet is more than just an animal - they're a part of your family. That's why we offer a wide range of products that are carefully selected to meet the needs of your furry friend. Whether you're looking for top-quality food, treats, toys, or accessories, we've got you covered. Our knowledgeable staff is always ready to help you find the perfect products for your pet's unique needs. Shop with us today and give your pet the care they deserve!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<br>
+		<section id="form4">
+	<div>
+		<h2>Pet Adoption</h2>
+		<div class="row">
+			<!-- Form Column -->
+			<div class="col-md-6">
+				<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+		<label for="address">Address</label>
+		<textarea id="address" name="address" placeholder="Enter your address.." required></textarea>
+
+		<label for="pet">Pet Name</label>
+		<input type="text" id="pet" name="pet" placeholder="Pet name you want to adopt.." required>
+
+		<label for="breed">Pet Breed</label>
+		<input type="text" id="breed" name="breed" placeholder="Pet breed.." required>
+
+		<label for="age">Pet Age</label>
+		<input type="number" id="age" name="age" placeholder="Pet age.." required>
+
+		<label for="gender">Pet Gender</label>
+		<select id="gender" name="gender" required>
+			<option value="">Select one...</option>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="unknown">Unknown</option>
+		</select>
+
+		<input type="submit" value="Submit">
+	</form>
+			</div>
+			<!-- Card Column -->
+			<div class="col-md-6">
+				<div class="card">
+					<img class="card-img-top" src="adoption2.png" style="width: 540px; height: 300px;" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Adoption</h4>
+						<p class="card-text">Looking to add a furry friend to your family? Adopt, don't shop! Our pet adoption center has a wide selection of cats, dogs, and other animals looking for their forever homes. All of our pets are fully vetted, spayed or neutered, and ready to be loved. By adopting from us, you'll not only be giving a deserving animal a second chance, but you'll also be supporting our mission to save more lives. Come meet your new best friend today!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</section>
+		<br>
+		<section id="form5">
+	<div>
+		<h2>Pet Training</h2>
+		<div class="row">
+			<!-- Form Column -->
+			<div class="col-md-6">
+				<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+		<label for="pet">Pet Name</label>
+		<input type="text" id="pet" name="pet" placeholder="Your pet name.." required>
+
+		<label for="breed">Pet Breed</label>
+		<input type="text" id="breed" name="breed" placeholder="Your pet breed.." required>
+
+		<label for="age">Pet Age</label>
+		<input type="number" id="age" name="age" placeholder="Your pet age.." required>
+
+		<label for="training-type">Training Type</label>
+		<select id="training-type" name="training-type" required>
+			<option value="">Select one...</option>
+			<option value="basic obedience">Basic Obedience</option>
+			<option value="advanced obedience">Advanced Obedience</option>
+			<option value="agility training">Agility Training</option>
+			<option value="behavior modification">Behavior Modification</option>
+			<option value="service dog training">Service Dog Training</option>
+		</select>
+
+		<label for="start-date">Start Date</label>
+		<input type="date" id="start-date" name="start-date" required>
+
+		<input type="submit" value="Submit">
+	</form>
+			</div>
+			<!-- Card Column -->
+			<div class="col-md-6">
+				<div class="card">
+					<img class="card-img-top" src="training2.jpg" style="width: 540px; height: 300px;" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Training</h5>
+						<p class="card-text">Transform your furry friend into a well-behaved and obedient companion with our expert pet training services. Our skilled trainers use positive reinforcement techniques to teach your pet everything from basic obedience to advanced tricks. We'll work with you and your pet to create a customized training program that meets their unique needs and personality. Whether you have a new puppy or an older dog, our training will help strengthen your bond and make life with your pet more enjoyable. Contact us today to schedule a consultation and start the journey to a happier, well-trained pet.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</section>
+		<br>
+		<section id="form6">
+	<div>
+		<h2>Pet Health Assessment</h2>
+		<div class="row">
+			<!-- Form Column -->
+			<div class="col-md-6">
+				<form>
+		<label for="name">Pet Owner Name</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+		<label for="pet-name">Pet Name</label>
+		<input type="text" id="pet-name" name="pet-name" placeholder="Your pet name.." required>
+
+		<label for="pet-age">Pet Age</label>
+		<input type="number" id="pet-age" name="pet-age" placeholder="Your pet age.." required>
+		<fieldset>
+			<legend>Pet Health Assessment</legend>
+
+			<label for="temperature">Temperature (in °F)</label>
+			<input type="number" id="temperature" name="temperature" placeholder="Pet's temperature.." required>
+
+			<label for="heart-rate">Heart Rate (in beats per minute)</label>
+			<input type="number" id="heart-rate" name="heart-rate" placeholder="Pet's heart rate.." required>
+
+			<label for="respiratory-rate">Respiratory Rate (in breaths per minute)</label>
+			<input type="number" id="respiratory-rate" name="respiratory-rate" placeholder="Pet's respiratory rate.." required>
+
+			<label for="weight">Weight (in lbs)</label>
+			<input type="number" id="weight" name="weight" placeholder="Pet's weight.." required>
+
+			<label for="allergies">Allergies</label>
+			<input type="text" id="allergies" name="allergies" placeholder="Does your pet have any allergies?" required>
+
+			<label for="medications">Medications</label>
+			<textarea id="medications" name="medications" placeholder="List any medications your pet is currently taking.." required></textarea>
+		</fieldset>
+
+		<input type="submit" value="Submit">
+	</form>
+			</div>
+			<!-- Card Column -->
+			<div class="col-md-6">
+				<div class="card">
+					<img class="card-img-top" src="health2.jpg" style="width: 540px; height: 300px;" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Health Assessment</h4>
+						<p class="card-text">Is your pet due for a health assessment? Our veterinary clinic offers comprehensive check-ups to ensure your furry friend is healthy and happy. Our experienced veterinarians will examine your pet from head to tail, checking for any signs of illness or discomfort. We'll also provide recommendations for preventative care, such as vaccinations, flea and tick prevention, and more. We know your pet is part of your family, and we'll treat them with the same care and attention we would give to our own pets. Contact us today to schedule a health assessment and give your pet the care they deserve.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+</html>
